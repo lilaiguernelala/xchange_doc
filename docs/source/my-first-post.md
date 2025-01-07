@@ -36,7 +36,7 @@ git clone git@gitlab.esiea.fr:mguessous/xchange.git
 2. Connectez-vous avec votre nom d’utilisateur et mot de passe.
 3. Créez une nouvelle base de données avec la commande :
 
-```c++
+```python
 CREATE DATABASE nom_de_la_base_de_donnees;
 ```
 
@@ -44,7 +44,7 @@ CREATE DATABASE nom_de_la_base_de_donnees;
 
 Adaptez les paramètres du fichier application.properties pour correspondre aux informations de votre base de données :
 
-```js
+```python
 spring.datasource.url=jdbc:mysql://localhost:3306/nom_de_la_base_de_donnees
 spring.datasource.username=votre_nom_utilisateur
 spring.datasource.password=mot_de_passe
@@ -55,13 +55,13 @@ spring.datasource.password=mot_de_passe
 1. Cloner deux fois le projet :
    * Dans le premier dossier (par exemple : backend), utilisez la commande :
 
-```js
+```python
 git clone git@gitlab.esiea.fr:mguessous/xchange.git backend
 ```
 
    * Dans le second dossier (par exemple : frontend), utilisez la commande :
 
-```js
+```python
 git clone git@gitlab.esiea.fr:mguessous/xchange.git frontend
 ```
 
@@ -74,13 +74,13 @@ git clone git@gitlab.esiea.fr:mguessous/xchange.git frontend
 1. Ouvrez le dossier backend dans un IDE comme IntelliJ IDEA ou Eclipse.
 2. Positionnez-vous sur la branche backend :
 
-```js
+```python
 git checkout backend
 ```
 
 3. Exécutez le backend avec Maven :
 
-```js
+```python
 mvn spring-boot:run
 ```
 
@@ -89,13 +89,13 @@ mvn spring-boot:run
 1. Ouvrez le dossier frontend dans un IDE comme Visual Studio Code.
 2. Positionnez-vous sur la branche frontend avec la commande :
 
-```js
+```python
 git checkout frontend
 ```
 
 3. Lancez le serveur Angular :
 
-```js
+```python
 ng serve
 ```
 
@@ -103,7 +103,7 @@ ng serve
 
 Ouvrez votre navigateur et accédez à :
 
-```
+```python
 http://localhost:4200
 ```
 
@@ -124,43 +124,43 @@ http://localhost:4200
 * Vérifiez l'installation :
   * Version Node.js :
 
-```js
+```python
 node -v
 ```
 
   * Version npm :
 
-```js
+```python
 npm -v
 ```
 
 * Si vous rencontrez une erreur avec npm, vérifiez la politique d'exécution actuelle :
 
-```js
+```python
 Get-ExecutionPolicy
 ```
 
 * Modifiez la politique si nécessaire :
 
-```js
+```python
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 * Re-vérifiez l'installation de npm :
 
-```js
+```python
 npm -v
 ```
 
 * Vous pouriez installer Angular CLI globalement avec npm maintenant avec la commande suivante :
 
-```js
+```python
 npm install -g @angular/cli
 ```
 
 * Vérifiez l'installation :
 
-```js
+```python
 ng version
 ```
 
