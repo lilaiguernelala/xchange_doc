@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FRONTEND &mdash; Documentation Home Xchange </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=d1a510d7"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=bf059b8c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="prev" title="Welcome to Home Xchange’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Home Xchange
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FRONTEND</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisites-for-developing-with-angular">Prerequisites for Developing with Angular</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#troubleshooting-npm-installation">Troubleshooting npm Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-angular">Installing Angular</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Home Xchange</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FRONTEND</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/my-first-post.md.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="frontend">
+<h1>FRONTEND<a class="headerlink" href="#frontend" title="Lien vers cette rubrique"></a></h1>
+<ul class="simple">
+<li><p>Pour développer avec angular il faut :
+Telechager <strong>node.js</strong> et l’installer sachant que <strong>npm</strong> est inclus avec node.js
+Pour vérifier :
+Node -v
+Npm -v</p></li>
+</ul>
+<section id="prerequisites-for-developing-with-angular">
+<h2>Prerequisites for Developing with Angular<a class="headerlink" href="#prerequisites-for-developing-with-angular" title="Lien vers cette rubrique"></a></h2>
+<p>To develop with Angular, follow these steps:</p>
+<ol class="arabic simple">
+<li><p>Download and install <strong>Node.js</strong>, which includes <strong>npm</strong>.</p></li>
+<li><p>Verify the installation:</p>
+<ul class="simple">
+<li><p>Check Node.js version: <code class="docutils literal notranslate"><span class="pre">Node</span> <span class="pre">-v</span></code></p></li>
+<li><p>Check npm version: <code class="docutils literal notranslate"><span class="pre">Npm</span> <span class="pre">-v</span></code></p></li>
+</ul>
+</li>
+</ol>
+<section id="troubleshooting-npm-installation">
+<h3>Troubleshooting npm Installation<a class="headerlink" href="#troubleshooting-npm-installation" title="Lien vers cette rubrique"></a></h3>
+<p>If you encounter an error with npm, check the current execution policy:</p>
+<ul class="simple">
+<li><p>Get-ExecutionPolicy</p></li>
+<li><p>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</p></li>
+</ul>
+<p>Then, verify that npm is installed correctly:</p>
+<ul class="simple">
+<li><p>Check npm version: <code class="docutils literal notranslate"><span class="pre">npm</span> <span class="pre">-v</span></code></p></li>
+</ul>
+</section>
+<section id="installing-angular">
+<h3>Installing Angular<a class="headerlink" href="#installing-angular" title="Lien vers cette rubrique"></a></h3>
+<ol class="arabic simple">
+<li><p>Install Angular globally using npm:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">&#64;angular/cli</span></code></p></li>
+</ul>
+</li>
+<li><p>Verify the Angular installation:</p>
+<ul class="simple">
+<li><p>Check Angular version: <code class="docutils literal notranslate"><span class="pre">ng</span> <span class="pre">version</span></code>
+Si le <strong>npm</strong> nous renvoie une erreur, on va vérifier la politique d’execution actuelle avec : Get-ExecutionPolicy
+Ou : Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</p></li>
+</ul>
+</li>
+</ol>
+<p>Et on reverife si le npm est bien installé : npm -v
+Et maintenant normalement on aura aucune erreur.</p>
+<ul class="simple">
+<li><p>On installe angular : npm install -g &#64;angular/cli
+Et on verifie avec : ng version</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Home Xchange’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2025, IGUERNELALA Lila.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
