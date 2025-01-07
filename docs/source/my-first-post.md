@@ -18,7 +18,7 @@ Ce projet vise à concevoir et implémenter une plateforme numérique dédiée �
 
 Exécutez la commande suivante dans un terminal pour cloner le projet :
 
-```js
+```python
 git clone git@gitlab.esiea.fr:mguessous/xchange.git
 ```
 
@@ -36,7 +36,7 @@ git clone git@gitlab.esiea.fr:mguessous/xchange.git
 2. Connectez-vous avec votre nom d’utilisateur et mot de passe.
 3. Créez une nouvelle base de données avec la commande :
 
-```js
+```c++
 CREATE DATABASE nom_de_la_base_de_donnees;
 ```
 
