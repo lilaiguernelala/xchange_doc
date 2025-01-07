@@ -3,7 +3,7 @@
 Le projet **Home Exchange** a été développé dans le cadre du programme **CAP Projet** de l'ESIEA, en collaboration avec **Thales Services Numériques**.
 Ce projet vise à concevoir et implémenter une plateforme numérique dédiée à l'échange de logements entre particuliers. L'équipe de développement, composée de Alpha Oumar DIALLO, Mohamed Mouad GUESSOUS, Lila IGUERNELALA, Hamza JAMI, Hana HOUSSEIN MOUSSA et Karl NDOBA, est responsable de la conception, du développement et de l'intégration des différents composants techniques de la plateforme.
 
-## Prérequis
+## Outils nécessaires
 
 * Git : Installé sur votre système pour cloner le projet.
 * MySQL : Assurez-vous que MySQL est installé et fonctionnel sur votre PC.
@@ -152,7 +152,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 npm -v
 ```
 
-* Vous pouriez installer Angular CLI globalement avec npm maintenant avec la commande suivante :
+* Vous pourriez installer Angular CLI globalement avec npm maintenant avec la commande suivante :
 
 ```python
 npm install -g @angular/cli
