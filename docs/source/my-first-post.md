@@ -5,7 +5,7 @@ Telechager **node.js** et l’installer sachant que **npm** est inclus avec node
 Pour vérifier : 
 Node -v 
 Npm -v 
-
+l
 ## Prerequisites for Developing with Angular
 
 To develop with Angular, follow these steps:
