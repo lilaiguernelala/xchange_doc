@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation du Projet &mdash; Documentation Home Xchange </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d1a510d7"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=e6b791cb"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="prev" title="Welcome to Home Xchange’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Home Xchange
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Documentation du Projet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#outils-necessaires">Outils nécessaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#etapes-a-suivre-pour-l-installation-et-la-configuration-du-projet">Étapes à suivre pour l’installation et la configuration du projet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cloner-le-projet">1. Cloner le projet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creer-une-base-de-donnees-mysql">2. Créer une base de données MySQL</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#option-1-avec-mysql-workbench">Option 1 : Avec MySQL Workbench</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#option-2-avec-mysql-command-line-client">Option 2 : Avec MySQL Command Line Client</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#configuration-du-fichier-application-properties">3. Configuration du fichier application.properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#organisation-des-dossiers-pour-le-backend-et-le-frontend">4. Organisation des dossiers pour le backend et le frontend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#execution-du-projet">5. Exécution du projet</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#backend">Backend</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#frontend">Frontend</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#accedez-a-lapplication">6. Accédez à l’application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tester-le-backend-avec-postman">7. Tester le backend avec Postman</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#remarques">Remarques</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Home Xchange</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Documentation du Projet</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/my-first-post.md.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="documentation-du-projet">
+<h1>Documentation du Projet<a class="headerlink" href="#documentation-du-projet" title="Lien vers cette rubrique"></a></h1>
+<p>Le projet <strong>Home Exchange</strong> a été développé dans le cadre du programme <strong>CAP Projet</strong> de l’ESIEA, en collaboration avec <strong>Thales Services Numériques</strong>.
+Ce projet vise à concevoir et implémenter une plateforme numérique dédiée à l’échange de logements entre particuliers. L’équipe de développement, composée de Alpha Oumar DIALLO, Mohamed Mouad GUESSOUS, Lila IGUERNELALA, Hamza JAMI, Hana HOUSSEIN MOUSSA et Karl NDOBA, est responsable de la conception, du développement et de l’intégration des différents composants techniques de la plateforme.</p>
+<section id="outils-necessaires">
+<h2>Outils nécessaires<a class="headerlink" href="#outils-necessaires" title="Lien vers cette rubrique"></a></h2>
+<ul class="simple">
+<li><p>Git : Installé sur votre système pour cloner le projet.</p></li>
+<li><p>MySQL : Assurez-vous que MySQL est installé et fonctionnel sur votre PC.</p></li>
+<li><p>Workbench ou MySQL Command Line Client : Interface ou terminal pour gérer la base de données.</p></li>
+<li><p>Node.js et Angular CLI : Requis pour exécuter le frontend.</p></li>
+<li><p>Maven : Requis pour exécuter le backend.</p></li>
+<li><p>Postman : Optionnel, pour tester l’API backend.</p></li>
+</ul>
+</section>
+<section id="etapes-a-suivre-pour-l-installation-et-la-configuration-du-projet">
+<h2>Étapes à suivre pour l’installation et la configuration du projet<a class="headerlink" href="#etapes-a-suivre-pour-l-installation-et-la-configuration-du-projet" title="Lien vers cette rubrique"></a></h2>
+<section id="cloner-le-projet">
+<h3>1. Cloner le projet<a class="headerlink" href="#cloner-le-projet" title="Lien vers cette rubrique"></a></h3>
+<p>Exécutez la commande suivante dans un terminal pour cloner le projet :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@gitlab</span><span class="o">.</span><span class="n">esiea</span><span class="o">.</span><span class="n">fr</span><span class="p">:</span><span class="n">mguessous</span><span class="o">/</span><span class="n">xchange</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</section>
+<section id="creer-une-base-de-donnees-mysql">
+<h3>2. Créer une base de données MySQL<a class="headerlink" href="#creer-une-base-de-donnees-mysql" title="Lien vers cette rubrique"></a></h3>
+<section id="option-1-avec-mysql-workbench">
+<h4>Option 1 : Avec MySQL Workbench<a class="headerlink" href="#option-1-avec-mysql-workbench" title="Lien vers cette rubrique"></a></h4>
+<ol class="arabic simple">
+<li><p>Ouvrez MySQL Workbench.</p></li>
+<li><p>Créez une nouvelle base de données en cliquant sur Create a New Schema.</p></li>
+<li><p>Donnez un nom à la base de données et cliquez sur Apply.</p></li>
+</ol>
+</section>
+<section id="option-2-avec-mysql-command-line-client">
+<h4>Option 2 : Avec MySQL Command Line Client<a class="headerlink" href="#option-2-avec-mysql-command-line-client" title="Lien vers cette rubrique"></a></h4>
+<ol class="arabic simple">
+<li><p>Ouvrez le terminal MySQL.</p></li>
+<li><p>Connectez-vous avec votre nom d’utilisateur et mot de passe.</p></li>
+<li><p>Créez une nouvelle base de données avec la commande :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">DATABASE</span> <span class="n">nom_de_la_base_de_donnees</span><span class="p">;</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="configuration-du-fichier-application-properties">
+<h3>3. Configuration du fichier application.properties<a class="headerlink" href="#configuration-du-fichier-application-properties" title="Lien vers cette rubrique"></a></h3>
+<p>Adaptez les paramètres du fichier application.properties pour correspondre aux informations de votre base de données :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">spring</span><span class="o">.</span><span class="n">datasource</span><span class="o">.</span><span class="n">url</span><span class="o">=</span><span class="n">jdbc</span><span class="p">:</span><span class="n">mysql</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">3306</span><span class="o">/</span><span class="n">nom_de_la_base_de_donnees</span>
+<span class="n">spring</span><span class="o">.</span><span class="n">datasource</span><span class="o">.</span><span class="n">username</span><span class="o">=</span><span class="n">votre_nom_utilisateur</span>
+<span class="n">spring</span><span class="o">.</span><span class="n">datasource</span><span class="o">.</span><span class="n">password</span><span class="o">=</span><span class="n">mot_de_passe</span>
+</pre></div>
+</div>
+</section>
+<section id="organisation-des-dossiers-pour-le-backend-et-le-frontend">
+<h3>4. Organisation des dossiers pour le backend et le frontend<a class="headerlink" href="#organisation-des-dossiers-pour-le-backend-et-le-frontend" title="Lien vers cette rubrique"></a></h3>
+<ol class="arabic simple">
+<li><p>Cloner deux fois le projet :</p>
+<ul class="simple">
+<li><p>Dans le premier dossier (par exemple : backend), utilisez la commande :</p></li>
+</ul>
+</li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@gitlab</span><span class="o">.</span><span class="n">esiea</span><span class="o">.</span><span class="n">fr</span><span class="p">:</span><span class="n">mguessous</span><span class="o">/</span><span class="n">xchange</span><span class="o">.</span><span class="n">git</span> <span class="n">backend</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Dans le second dossier (par exemple : frontend), utilisez la commande :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@gitlab</span><span class="o">.</span><span class="n">esiea</span><span class="o">.</span><span class="n">fr</span><span class="p">:</span><span class="n">mguessous</span><span class="o">/</span><span class="n">xchange</span><span class="o">.</span><span class="n">git</span> <span class="n">frontend</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Ouvrez les deux dossiers dans des IDE différents pour une exécution séparée.</p></li>
+</ol>
+</section>
+<section id="execution-du-projet">
+<h3>5. Exécution du projet<a class="headerlink" href="#execution-du-projet" title="Lien vers cette rubrique"></a></h3>
+<section id="backend">
+<h4>Backend<a class="headerlink" href="#backend" title="Lien vers cette rubrique"></a></h4>
+<ol class="arabic simple">
+<li><p>Ouvrez le dossier backend dans un IDE comme IntelliJ IDEA ou Eclipse.</p></li>
+<li><p>Positionnez-vous sur la branche backend :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">backend</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Exécutez le backend avec Maven :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">mvn</span> <span class="n">spring</span><span class="o">-</span><span class="n">boot</span><span class="p">:</span><span class="n">run</span>
+</pre></div>
+</div>
+</section>
+<section id="frontend">
+<h4>Frontend<a class="headerlink" href="#frontend" title="Lien vers cette rubrique"></a></h4>
+<ol class="arabic simple">
+<li><p>Ouvrez le dossier frontend dans un IDE comme Visual Studio Code.</p></li>
+<li><p>Positionnez-vous sur la branche frontend avec la commande :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">frontend</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Lancez le serveur Angular :</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ng</span> <span class="n">serve</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="accedez-a-lapplication">
+<h3>6. Accédez à l’application<a class="headerlink" href="#accedez-a-lapplication" title="Lien vers cette rubrique"></a></h3>
+<p>Ouvrez votre navigateur et accédez à :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">4200</span>
+</pre></div>
+</div>
+</section>
+<section id="tester-le-backend-avec-postman">
+<h3>7. Tester le backend avec Postman<a class="headerlink" href="#tester-le-backend-avec-postman" title="Lien vers cette rubrique"></a></h3>
+<ol class="arabic simple">
+<li><p>Ouvrez Postman.</p></li>
+<li><p>Configurez une requête HTTP en spécifiant l’URL du backend (par exemple : http://localhost:8080/api/…).</p></li>
+<li><p>Testez les différents endpoints de l’API.</p></li>
+</ol>
+</section>
+</section>
+<section id="remarques">
+<h2>Remarques<a class="headerlink" href="#remarques" title="Lien vers cette rubrique"></a></h2>
+<ul class="simple">
+<li><p>Organisation des branches :</p>
+<ul>
+<li><p>Branche frontend : Contient le code pour l’interface utilisateur.</p></li>
+<li><p>Branche backend : Contient le code pour le serveur.</p></li>
+</ul>
+</li>
+<li><p>Gestion des erreurs :</p>
+<ul>
+<li><p>Si le frontend ou le backend ne fonctionne pas, vérifiez les journaux d’erreurs dans l’IDE ou le terminal.</p></li>
+</ul>
+</li>
+<li><p>Compatibilité : Assurez-vous que les versions de Node.js, Maven, et MySQL sont compatibles avec les configurations du projet.</p></li>
+<li><p>Vérifiez l’installation :</p>
+<ul>
+<li><p>Version Node.js :</p></li>
+</ul>
+</li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">node</span> <span class="o">-</span><span class="n">v</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Version npm :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">npm</span> <span class="o">-</span><span class="n">v</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Si vous rencontrez une erreur avec npm, vérifiez la politique d’exécution actuelle :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">Get</span><span class="o">-</span><span class="n">ExecutionPolicy</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Modifiez la politique si nécessaire :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">Set</span><span class="o">-</span><span class="n">ExecutionPolicy</span> <span class="n">RemoteSigned</span> <span class="o">-</span><span class="n">Scope</span> <span class="n">CurrentUser</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Re-vérifiez l’installation de npm :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">npm</span> <span class="o">-</span><span class="n">v</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Vous pourriez installer Angular CLI globalement avec npm maintenant avec la commande suivante :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">npm</span> <span class="n">install</span> <span class="o">-</span><span class="n">g</span> <span class="nd">@angular</span><span class="o">/</span><span class="n">cli</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Vérifiez l’installation :</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ng</span> <span class="n">version</span>
+</pre></div>
+</div>
+<p><em>Avec ces étapes, vous serez prêt à développer et exécuter notre application sans rencontrer de problèmes majeurs.</em></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Home Xchange’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2025, IGUERNELALA Lila.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
